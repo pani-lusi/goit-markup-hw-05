@@ -598,7 +598,7 @@ button {
   margin-bottom: 4px;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
@@ -610,7 +610,9 @@ button {
   height: 40px;
   padding-left: 38px;
   outline: none; /*при уст курсора чтоб не появл внешн рамка*/
+  background-color: transparent;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-user-input:focus {
   border: 1px solid #4d5ae5;
